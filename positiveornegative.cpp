@@ -1,24 +1,20 @@
 #include <iostream>
 using namespace std;
-
-
 int main()
 {
 	int n;
-    
-    
-    cin>>n;
+   cin>>n;
     if(n>0)
     {
-    cout<<" positive"<<n;
+    cout<<"Positive";
     }
     else if(n<0)
     {
-    cout<<" negative"<<n;
+    cout<<"Negative";
     }
     else
     {
-    cout<<"zero";
+    cout<<"Zero";
     }
     return 0;
 }
